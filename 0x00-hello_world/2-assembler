@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S -o compileroutput $CFILE
+gcc -c -o compileroutput $CFILE
