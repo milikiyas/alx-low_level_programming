@@ -1,9 +1,14 @@
 #include <stdio.h>
 
-int main (void)
-
+	/**
+	 * main -Entry point
+	 * 
+	 * Retur: alwas 0 (success)
+	 *
+	 */
+	int main(void)
 {
-	char *s = "Programming is like building a multilingual puzzle";
-		puts(s);
-		return(0);
+	char *s = "\"Programming is like building a multilingual puzzle";
+	puts(s);
+	return(0);
 }
