@@ -30,7 +30,7 @@ int n, Ls;
 		}
 	if (Ls < 6 && Ls != 0)
 		{
-			printf("%s %d %s %d %s\n", "Last digit of", n, "is", Ls, "and is less 6 and not 0");
+			printf("%s %d %s %d %s\n", "Last digit of", n, "is", Ls, "and is less than 6 and not 0");
 		}
 /* your code goes there */
 	return (0);
