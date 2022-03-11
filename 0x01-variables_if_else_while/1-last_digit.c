@@ -13,9 +13,10 @@ int main(void)
 
 {
 
-int n, Ls, a, b;
-	char a[] = "Last digit of"
-	     b[] = "is"
+int n, Ls;
+
+	char a[] = "Last digit of";
+	char b[] = "is";
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	Ls = n % 10;
