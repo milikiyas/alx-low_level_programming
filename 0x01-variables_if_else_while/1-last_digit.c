@@ -24,7 +24,7 @@ int main(void)
 		n = rand() - RAND_MAX / 2;
 		Ls = n % 10;
 		scanf("%d", &n);
-	if  (Ls > 5)	
+	if  (Ls > 5)
 	{
 		printf("%s %d %s %d %s\n", a, n, b, Ls, "and is greater than 5");
 	}
@@ -33,7 +33,7 @@ int main(void)
 		printf("%s %d %s %d %s\n", a, n, b, Ls, "and is 0");
 	}		
 	if (Ls < 6 && Ls != 0)
-	{	
+	{
 		printf("%s %d %s %d %s\n", a, n, b, Ls, "and is less than 6 and not 0");
 	}
 /* your code goes there */
