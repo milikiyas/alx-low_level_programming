@@ -20,7 +20,7 @@ int n, Ls;
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	Ls = n % 10;
-	scanf("%d", &n);
+	scanf ("%d", &n);
 	if  (Ls > 5)
 
 		{
