@@ -5,21 +5,21 @@
  * Return: Always 0 ((success))
  *
  */
-int main (void)
+int main(void)
 {
 	char ch = 'a';
+
 	char CH = 'A';
-	while(CH <= 'Z')
+
+	while (CH <= 'Z')
 	{
-		
-		while(ch <='z')
-		{	
+		while (ch <= 'z')
+		{
 		putchar(ch);
 		ch++;
 		}
 		putchar(CH);
 		CH++;
-		
 	}
 	putchar('\n');
 	return (0);
