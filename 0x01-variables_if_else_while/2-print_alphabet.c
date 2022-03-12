@@ -8,12 +8,10 @@
 int main(void)
 
 {
-	int x;
+	int x = 97;
 
 	while (x <= 122)
 	{
-		x = 97;
-
 		putchar(x);
 		x++;
 	}
