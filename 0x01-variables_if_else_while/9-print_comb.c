@@ -19,6 +19,6 @@ int main(void)
 		putchar('\x20');
 		d++;
 	}
-	putchar('\n');
+	
 	return (0);
 }
