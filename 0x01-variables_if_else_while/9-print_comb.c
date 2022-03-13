@@ -16,7 +16,7 @@ int main(void)
 	{
 		putchar(d);
 		putchar(l);
-		putchar('\t');
+		putchar('\x20');
 		d++;
 	}
 	putchar('\n');
