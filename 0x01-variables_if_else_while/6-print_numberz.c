@@ -1,20 +1,19 @@
-#include <stdio.h>
+#include<stdio.h>
+
 /**
- * main - Entry Point
- *
- * Return: alwas 0 ((success)
- */
+* main - Entry Point
+* Return: always 0 ((success))
+*
+*/
 int main(void)
 {
-	char n_m = '0';
+	int a = 48;
 
-	while (n_m <= '9')
+	while (a <= 57)
 	{
-		putchar(n_m);
-		n_m++;
+		putchar(a);
+		a++;
 	}
 	putchar('\n');
 	return (0);
-
 }
-
