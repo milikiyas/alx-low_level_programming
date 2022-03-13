@@ -6,14 +6,16 @@
  *
 */
 int main(void)
+
 {
-               int i = -1;
-	
+		int i = -1;
+
 		while (i <= 8)
 		{
 			i++;
 			printf("%d", i);
-		
+
 		}
+	putchar('\n');
 	return (0);
 }
