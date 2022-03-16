@@ -17,19 +17,29 @@ int print_sign(int n)
 
 	if (n > 0)
 	{
-		return (1);
+		_putchar(n);
+		_putchar(',');
+		_putchar(' ')
 		_putchar(c);
+		return (1);
 	}
 	if (n == 0)
 	{
-		return (0);
+		_putchar(n);
+		_putchar(',');
+		_putchar(' ');
 		_putchar(d);
+		return (1);
 	}
 	if (n < 0)
 	{
 		int f = -1;
-		return f;
+		
+		_putchar(n);
+		_putchar(',');
+		_putchar(' ');
 		_putchar(b);
+		return f;
 	}
 }
 
