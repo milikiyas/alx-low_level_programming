@@ -27,8 +27,7 @@ int print_sign(int n)
 	}
 	else if (n < 0)
 	{
-		int f = -1
-		return (f);
+		return (-1);
 		_putchar(b);
 	}
 }
