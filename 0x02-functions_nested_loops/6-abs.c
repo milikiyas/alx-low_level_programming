@@ -4,7 +4,7 @@
  *
  * @n: takes an integer value
  *
- * Returns: p if n < 0  n if n >= 0
+ * Return: p if n < 0 ||  n if n >= 0
  */
 int _abs(int n)
 {
