@@ -7,8 +7,6 @@
  * Return: ln  always (success))
  */
 int print_last_digit(int n);
-
-
 {
 	int ln = n % 10;
 
