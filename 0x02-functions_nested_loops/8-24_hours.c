@@ -1,9 +1,9 @@
 #include "main.h"
-/*
- *jack_bauer - this function prints minuts of the day from 00:00 to 23:59
- *
- * @void - no arguments
- */
+/**
+ jack_bauer - this function prints minuts of the day from 00:00 to 23:59
+*
+* @void - no arguments
+*/
 void jack_bauer(void)
 {
 	int i, j;
