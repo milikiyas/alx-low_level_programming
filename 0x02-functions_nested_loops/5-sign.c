@@ -19,7 +19,7 @@ int print_sign(int n)
 	{
 		_putchar(n);
 		_putchar(',');
-		_putchar(' ')
+		_putchar(' ');
 		_putchar(c);
 		return (1);
 	}
@@ -41,5 +41,6 @@ int print_sign(int n)
 		_putchar(b);
 		return f;
 	}
+	
 }
 
