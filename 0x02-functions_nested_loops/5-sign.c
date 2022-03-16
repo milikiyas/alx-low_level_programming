@@ -18,10 +18,10 @@ int print_sign(int n)
 
 	if (n > 0)
 	{
+		 _putchar(c);
 		printf("%d", n);
 		_putchar(44);
 		_putchar(32);
-		_putchar(c);
 		return (1);
 	}
 	else if (n == 0)
