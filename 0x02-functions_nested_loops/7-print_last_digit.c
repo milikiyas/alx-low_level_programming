@@ -4,17 +4,16 @@
  *
  * @n: takes a value of intger
  *
- * Return: lg  always (success))
+ * Return: ln  always (success))
  */
 int print_last_digit(int n);
 
 
 {
-	int lg;
+	int ln = n % 10;
 
-	lg = n % 10;
-	if (lg < 0)
-	_putchar('lg' * -1);
-		return (lg);
-	_putchar('\n');
+	if (n < 0)
+		ln = ln * -1;
+	_putchar(ln +'0');
+	return (ln);
 }
