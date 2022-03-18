@@ -8,7 +8,7 @@
 */
 void more_numbers(void)
 {
-	int tens, units;
+	int tens, units, k, m;
 
 	for (k = 1; k <= 10; k++)
 	{
