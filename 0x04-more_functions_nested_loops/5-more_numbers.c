@@ -12,8 +12,12 @@ void more_numbers(void)
 	{
 		for (m = '0'; m <= '14'; m++)
 		{
-			_putchar(m);
+			tens = m/10;
+			units = m % 10;
+			if (if m >= 9)
+			_putchar(tens + '0');
+			_putchar(units + '0');
 		}
 		_putchar('\n');
 	}
-}	
+}
