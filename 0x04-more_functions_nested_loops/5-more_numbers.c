@@ -15,7 +15,7 @@ void more_numbers(void)
 			tens = m / 10;
 			units = m % 10;
 			if (m > 9 && m <= 14)
-			_putchar(tens + '0');
+				_putchar(tens + '0');
 			_putchar(units + '0');
 		}
 		_putchar('\n');
