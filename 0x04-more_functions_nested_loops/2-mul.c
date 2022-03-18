@@ -10,5 +10,4 @@ int mul(int a, int b)
 	int product_;
 
 	product_ = a * b;
-	return (0);
 }
