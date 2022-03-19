@@ -1,4 +1,9 @@
 #include <stdio.h>
+/**
+ * main - entr point
+ *
+ * Return: 0 always
+ */
 
 int main(void)
 {
@@ -23,4 +28,6 @@ int main(void)
 			odd_prime = odd_prime + 2;
 	}
 			printf("%d", max_prime);
+			return (0);
 }
+
