@@ -1,34 +1,31 @@
-#include<stdio.h>
+
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+
 /**
- * main - Entry Point
- *
- * return: always 0 ((success))
- *
-*/
+ * main - main block
+ * Description: print alphabets using putchar
+ * Return: 0
+ */
 int main(void)
 {
-	char c_h = 'a';
-	
-	while (c_h <= 'd')
-	{
-		putchar(c_h);
-		c_h++;
-	}
-	
-	char k_l = 'f';
-	
-	while (k_l <= 'p')
-	{
-		putchar(k_l);
-		k_l++;
-	}
-	char s_l = 'r';
+	char hello[] = "abcdefghijklmnopqrstuvwxyz\n";
+	char *s;
 
-	while (s_l = 'z');
+	s = hello;
+
+	while (*s != '\0')
 	{
-	 putchar(s_l);
-	 s_l++;
+		char out = (char)*s;
+
+		if (out == 'q' || out == 'e')
+		{
+			s++;
+			continue;
+		}
+		putchar(*s);
+		s++;
 	}
-	putchar('\n');
 	return (0);
 }
