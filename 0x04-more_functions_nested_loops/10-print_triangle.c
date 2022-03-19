@@ -2,7 +2,9 @@
 /**
  * print_triangle - main entry
  * @size: takes in integer value
- *Description: prints a triangle, followed by a new line.
+ *
+ *Description: prints a triangle, followed by a new line
+ .
  * Return: void 
  */
  void print_triangle(int size)
@@ -20,7 +22,10 @@
 				{
 					_putchar(' ');
 				}
-				_putchar('#');
+				for (k = 1; k <= i; k++)
+				{
+					_putchar('#');
+				}
 			}
 			_putchar('\n');
 		}
