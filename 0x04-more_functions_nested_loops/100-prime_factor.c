@@ -1,33 +1,33 @@
 #include <stdio.h>
+#include "main.h"
 /**
- * main - entr point
+ * main - find prime number
  *
- * Return: 0 always
- */
+ * Description: find largest prime number of 612852475143
+ *
+ * Return: zero
+ **/
 
 int main(void)
 {
-	int odd_prime, max_prime;
-	long long num = 612852475143;
+	long int max, lower, test;
 
-	odd_prime = 3;
-	max_prime = 0;
+	max = 612852475143;
+	lower = 2;
+	test = 2;
 
-	while (num % 2 == 0)
+	while (max > test)
 	{
-		max_prime = 2;
-		num /= 2;
-	}
-	while (num != 1)
-	{
-		while (num % odd_prime == 0)
+		if (max % test == 0)
 		{
-			max_prime = odd_prime;
-			num /= odd_prime;
+			lower = test;
+			max = max / lower;
+			test = lower + 1;
 		}
-			odd_prime = odd_prime + 2;
+		else
+			test++;
 	}
-			printf("%d", max_prime);
-			return (0);
+	printf("%ld\n", max);
+	return (0);
 }
 
