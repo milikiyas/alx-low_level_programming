@@ -16,7 +16,7 @@
 			if (size <= 0)
 			_putchar('\n');
 
-			if ( size > 0)
+			else if ( size > 0)
 			{
 				for (j = 1; j <= (size - i); j++)
 				{
