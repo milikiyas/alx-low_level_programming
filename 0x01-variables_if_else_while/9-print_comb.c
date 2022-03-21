@@ -1,27 +1,26 @@
-#include<stdio.h>
-/**
- * main - entry point
- *
- * Return: Always 0 ((success))
- */
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 
+/**
+ * main - main block
+ * Description: print alphabets using putchar
+ * Return: 0
+ */
 int main(void)
 {
-	int d, l, k;
+	int i;
 
-	d = 48;
-	l = 44;
-	k = 57;
-
-	while (d < 57)
+	for (i = 0; i <= 9; i++)
 	{
-		putchar(d);
-		d++;
-		putchar(l);
-		putchar('\x20');
+		putchar(i + '0');
+		if (i < 9)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+	}
+	putchar('\n');
 
-	}	
-	putchar(k);
-	'\n';
 	return (0);
 }
