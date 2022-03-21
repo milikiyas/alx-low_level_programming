@@ -13,19 +13,15 @@ int main(void)
 	l = 44;
 	k = 57;
 
-	while (d <= 56)
+	while (d < 57)
 	{
 		putchar(d);
 		d++;
 		putchar(l);
 		putchar('\x20');
 
-	}
-	while (k <= 57)
-	{
-		putchar(k);
-		k++;
-	}
-
+	}	
+	putchar(k);
+	'\n';
 	return (0);
 }
