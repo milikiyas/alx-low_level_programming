@@ -13,7 +13,7 @@ void puts2(char *str)
 	{
 	if (i > 224)
 		{
-		break
+		break;
 		}
 	_putchar(str[i]);
 
