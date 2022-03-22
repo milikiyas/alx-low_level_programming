@@ -18,9 +18,9 @@ void rev_string(char *s)
 		i++;
 	}
 	j = i;
-	while (s[j - 1] != '\0')
+	while (s[i - 1] != '\0')
 	{
-		j--;
+		i--;
 	}
 	*k = s;
 }
