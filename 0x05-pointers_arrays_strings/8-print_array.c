@@ -1,4 +1,5 @@
 #include "main.h"
+#include<stdio.h>
 /**
  * print_array - entyr point
  * @a: takes adress of a variable
@@ -18,9 +19,7 @@ void print_array(int *a, int n)
 	       }
 	       else
 	       {	       
-		_putchar(a[i] + '0');
-		_putchar(',');
-		_putchar(' ');
+		printf("%d, ", *(a + i);
 	       }
 	}
 	_putchar('\n');
