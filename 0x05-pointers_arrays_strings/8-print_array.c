@@ -10,7 +10,7 @@
 void print_array(int *a, int n)
 {
 	int i = 0;
-	
+
 	for (i = 0; *(a + i); i++)
 	{
 	       if (i > (n - 1))
@@ -18,8 +18,15 @@ void print_array(int *a, int n)
 		break;
 	       }
 	       else
-	       {	       
+	       {
+		if (i == n)
+		{
+			printf("%d", *(a+i));
+		}
+		else
+		{
 		printf("%d, ", *(a + i));
+		}
 	       }
 	}
 	_putchar('\n');
