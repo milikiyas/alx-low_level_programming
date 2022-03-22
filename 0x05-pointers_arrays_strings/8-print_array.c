@@ -13,7 +13,7 @@ void print_array(int *a, int n)
 	
 	for (i = 0; *(a + i); i++)
 	{
-	       if (i == (n - 1))
+	       if (i > (n - 1))
 	       {
 		break;
 	       }
