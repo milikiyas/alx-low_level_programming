@@ -25,10 +25,6 @@ void print_array(int *a, int n)
 		printf("%d, ", *(a + i));
 		}
 	       }
-		else if (i > (n - 1))
-		{
-			break;
-		}
 	       
 	}
 	_putchar('\n');
