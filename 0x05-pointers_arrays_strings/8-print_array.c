@@ -21,7 +21,7 @@ void print_array(int *a, int n)
 		}
 		else
 		{
-		printf("%d, "i *(a + i));
+		printf("%d, ", *(a + i));
 		}
 		else if (i > (n - 1))
 		{
