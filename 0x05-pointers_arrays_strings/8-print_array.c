@@ -13,11 +13,7 @@ void print_array(int *a, int n)
 
 	for (i = 0; *(a + i); i++)
 	{
-	       if (i > (n - 1))
-	       {
-		break;
-	       }
-	       else
+	if (i <= (n - 1))
 	       {
 		if (i == n - 1)
 		{
@@ -25,7 +21,11 @@ void print_array(int *a, int n)
 		}
 		else
 		{
-		printf("%d, ", *(a + i));
+		printf("%d, "i *(a + i));
+		}
+		else if (i > (n - 1))
+		{
+			break;
 		}
 	       }
 	}
