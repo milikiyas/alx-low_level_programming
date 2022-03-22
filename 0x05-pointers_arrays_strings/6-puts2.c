@@ -11,7 +11,7 @@ void puts2(char *str)
 
 	for (i = 0; *(str + i) != '\0'; i += 2)
 	{
-	if (i > 224)
+	if (i >336)
 		{
 		break;
 		}
