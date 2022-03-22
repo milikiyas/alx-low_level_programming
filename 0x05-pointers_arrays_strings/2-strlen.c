@@ -5,7 +5,6 @@
  * Return:  always 0
  *
  */
-int _putchar(char c);
 
 int _strlen(char *s)
 {
