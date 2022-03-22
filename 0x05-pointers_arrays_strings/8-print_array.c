@@ -1,5 +1,5 @@
 #include "main.h"
-#include<stdio.h>
+#include <stdio.h>
 /**
  * print_array - entyr point
  * @a: takes adress of a variable
