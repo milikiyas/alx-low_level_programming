@@ -21,12 +21,10 @@ void print_array(int *a, int n)
 			{
 			 printf("%d\n", a[i]);
 			}
-		else if (i < 0)
-		{
-			printf("\v");
-		}
+		
 
 	}
+	printf("\n");
 }
 
 
