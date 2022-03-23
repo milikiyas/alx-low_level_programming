@@ -23,7 +23,7 @@ void print_array(int *a, int n)
 			}
 		else if (i < 0)
 		{
-			printf("\n");
+			printf('\t');
 		}
 
 	}
