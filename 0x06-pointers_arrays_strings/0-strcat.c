@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
  * _strcat - entry point
  * @dest: taks char type variable
@@ -10,6 +10,7 @@ char *_strcat(char *dest, char *src)
 {
 	int i;
 	int k;
+	int f;
 
 	for (i = 0; src[i] != '\0'; i++)
 	{
