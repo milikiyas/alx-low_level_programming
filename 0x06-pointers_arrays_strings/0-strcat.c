@@ -18,15 +18,15 @@ char *_strcat(char *dest, char *src)
 	}
 	for (k = 0; dest[i] != '\0'; k++)
 	{
-		_putchar(dest[i] + '0');
+		;
 	}
 
 	for (f = 0; f <= i - 1; f++)
 	{
 		dest[k] = src[f];
 		k++;
-		_putchar(dest[k] + '0');
+		
 	}
-	_putchar('\n');
+
 	return (dest);
 }
