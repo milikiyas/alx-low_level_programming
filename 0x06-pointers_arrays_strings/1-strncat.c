@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * _strncat - entry point
  * @dest: takes in character value
@@ -34,6 +33,5 @@ char *_strncat(char *dest, char *src, int n)
 	}
 
 	
-
 	return (dest);
 }
