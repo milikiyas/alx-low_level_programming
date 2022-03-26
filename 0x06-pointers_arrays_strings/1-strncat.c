@@ -26,6 +26,11 @@ char *_strncat(char *dest, char *src, int n)
 
 	}
 	}
+	else 
+	{
+		dest[k] = dest[k];
+	}
+
 	
 
 	return (dest);
