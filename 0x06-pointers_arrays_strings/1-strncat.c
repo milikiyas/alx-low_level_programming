@@ -28,7 +28,9 @@ char *_strncat(char *dest, char *src, int n)
 	}
 	else 
 	{
+		if (n == 0)
 		dest[k] = dest[k];
+		
 	}
 
 	
