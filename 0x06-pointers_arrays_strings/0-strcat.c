@@ -16,16 +16,19 @@ char *_strcat(char *dest, char *src)
 	{
 		;
 	}
-	for (k = 0; dest[i] != '\0'; k++)
+	for (k = 0; dest[k] != '\0'; k++)
 	{
 		;
 	}
 
 	for (f = 0; f <= i - 1; f++)
 	{
-		dest[k] = src[f];
-		k++;
+		if (f != 0)
+		dest[(k - 1) + f] = src[f];
 		
+		else
+			_putchar(' ');
+	
 	}
 
 	return (dest);
