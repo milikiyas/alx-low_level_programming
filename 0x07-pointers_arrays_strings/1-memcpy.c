@@ -1,40 +1,20 @@
-	#include <stdio.h>
-
+	#include "main.h"
 
 /**
- * _strchr - function that locates a character in a string.
- *
- * @s: string to receive and return
- * @c: character to receive
- * Return: char
+ * _memcpy - irontnoux2
+ * @dest: pointer to char params
+ * @src: pointer to char params
+ * @n: size
+ * Return: *dest
  */
 
-char *_strchr(char *s, char c)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	while (*s != '\0')
+	unsigned int i;
+
+	for (i = 0; i < n; i++)
 	{
-		if (*s == c)
-			{
-			    return (s);
-			}
-		s++;
+		dest[i] = src[i];
 	}
-	if (*s == c)
-		return (s);
-	else
-		return (NULL);
-}
-
-int main(void)
-{
-    char *s = "hello";
-    char *f;
-
-    f = _strchr(s, 'l');
-
-    if (f != NULL)
-    {
-        printf("%s\n", f);
-    }
-    return (0);
+	return (dest);
 }
