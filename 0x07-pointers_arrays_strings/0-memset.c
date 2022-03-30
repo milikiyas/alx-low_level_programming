@@ -1,16 +1,23 @@
 #include "main.h"
+
 /**
- * _memset - entry point
- * @s - takes in character type pointer
+ * _memset - function that fills memory with a constant byte.
+ *
+ * @s: takes in pointer of string
  * @b: takes in character type value
- * @n: takes in unsighned integer value
- * Return: s pointer
+ * @n: size of bytes
+ * Return: char
  */
+
 char *_memset(char *s, char b, unsigned int n)
 {
-	int i;
+	unsigned int i = 0;
 
-	for (i = 0; i < n; i++)
-		s[i] = b;
+	while (i < n)
+	{
+
+		*(s + i) = b;
+		i += 1;
+	}
 	return (s);
 }
