@@ -1,28 +1,40 @@
-#include "main.h"
-/**
- * _memcpy - entry point
- *
- * @dest: takes in character type pointer
- * @src: takes character type pointer
- * @n: size of an array ineger type
- *
- * Return: dest pointer
- */
-char *_memcpy(char *dest, char *src, unsigned int n)
-{
-	int i, p;
+	#include <stdio.h>
 
-	if (dest == NULL)
+
+/**
+ * _strchr - function that locates a character in a string.
+ *
+ * @s: string to receive and return
+ * @c: character to receive
+ * Return: char
+ */
+
+char *_strchr(char *s, char c)
+{
+	while (*s != '\0')
+	{
+		if (*s == c)
+			{
+			    return (s);
+			}
+		s++;
+	}
+	if (*s == c)
+		return (s);
+	else
 		return (NULL);
-	if (dest)
-	{
-	for (i = 0; i < n; i++)
-		dest[i] = src[i];
-	}
-	if (dest + p)
-	{
-		for (i = 0; i < n; i++)
-		dest[i + p] = src[i];
-	}
-	return (dest);
-}	
+}
+
+int main(void)
+{
+    char *s = "hello";
+    char *f;
+
+    f = _strchr(s, 'l');
+
+    if (f != NULL)
+    {
+        printf("%s\n", f);
+    }
+    return (0);
+}
