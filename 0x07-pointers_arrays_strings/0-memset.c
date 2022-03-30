@@ -3,8 +3,8 @@
 /**
  * _memset - function that fills memory with a constant byte.
  *
- * @s: mamory area to return
- * @b: constant byte
+ * @s: takes in pointer of string
+ * @b: takes in character type value
  * @n: size of bytes
  * Return: char
  */
