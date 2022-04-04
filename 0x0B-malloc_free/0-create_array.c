@@ -6,13 +6,11 @@
  * @c: character for the array
  * Return: pointer if size is not 0  otherwise NULL
  */
-
-
 char *create_array(unsigned int size, char c)
 
 {
 	char *ptr;
-	int i;
+	unsigned int i;
 
 	ptr = malloc(size * sizeof(char));
 	if (size == 0)
