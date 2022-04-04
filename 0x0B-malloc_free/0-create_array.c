@@ -24,7 +24,7 @@ char *create_array(unsigned int size, char c)
 		{
 		*(ptr + i) = c;
 		
-		if (i == size
+		if (i == size)
 				free(ptr);
 		}
 		
