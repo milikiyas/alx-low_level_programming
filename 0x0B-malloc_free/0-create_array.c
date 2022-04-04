@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdlib.h>
+#include <stddef>
 /**
  * create_array - entry point
  * @size: takes positive integer for size of array
