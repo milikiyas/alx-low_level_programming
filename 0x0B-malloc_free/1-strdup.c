@@ -1,4 +1,5 @@
 #include "main.h"
+#include<stdlib.h>
 /**
  * _strdup - entry point
  * @str: array of string
@@ -16,7 +17,9 @@ char *_strdup(char *str)
 		return (NULL);
 
 	if (ptr == NULL)
+	{
 		return (NULL);
+	}
 		k = 0;
 		while (k <= i)
 		{
