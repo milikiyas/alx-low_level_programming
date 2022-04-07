@@ -53,6 +53,5 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		ptr[k] = '\0';
 		return (ptr);
 	}
-	else
-		return (NULL);
+
 }
