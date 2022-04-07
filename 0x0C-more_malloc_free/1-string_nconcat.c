@@ -1,5 +1,5 @@
 #include "main.h"
-#include<stdio.h>
+#include<stdlib.h>
 /**
  * string_nconcat - entry point 
  * @s1: string to be concatinated 
@@ -9,7 +9,7 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *ptr;
-	int k, i, j;
+	unsigned int k, i, j;
 
 	if (s1 == NULL || s2 == NULL)
 	{
