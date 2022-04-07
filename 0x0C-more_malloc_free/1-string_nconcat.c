@@ -41,7 +41,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 			k++;
 		}
 		ptr[k] = '\0';
-		return (ptr);
 	}
 	else if (n > j)
 	{
@@ -51,7 +50,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 			k++;
 		}
 		ptr[k] = '\0';
-		return (ptr);
 	}
+	return (ptr);
 
 }
